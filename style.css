@@ -1,5 +1,5 @@
 body {
-    background: white;
+    background: beige;
     font-family: Verdana, sans-serif;
     box-sizing: border-box;
     color: black;
@@ -18,15 +18,17 @@ body {
 .recipeList {
     margin: 16px;
     padding: 32px;
-    border: 1px solid black;
-    border-radius: 8px;
+    
+    
     text-align: center;
-
     font-size: 18px;
 }
 
 .link{
-    display: block;
+    display: inline-block;
+    border: 2px solid rgb(1, 1, 158);
+    border-radius: 8px;
+    padding: 12px;
 }
 
 .elem{
@@ -37,9 +39,10 @@ body {
     border-radius: 8px;
 
     width: 400px;
-    height: auto;
 
     display: inline-block;
+
+    background-color: white;
 }
 
 .img{
